@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurassic Park Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Jurassic Park</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#characters">Personagens</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+
+                <p class="text-with-border">
+                    Bem-vindo ao Parque dos Dinossauros!
+                    <br>
+                    Prepare-se para uma aventura incrível!
+                </p>
+
+                <a href="#about" class="btn">Saiba Mais</a>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2>Sobre o Filme</h2>
+                <p>Jurassic Park é um filme de aventura e ficção científica dirigido por Steven Spielberg, baseado no
+                    livro homônimo de Michael Crichton. O filme é ambientado em uma ilha onde um parque temático de
+                    dinossauros criados através de engenharia genética ganha vida, resultando em caos e perigo para os
+                    visitantes.</p>
+                <p>Estrelando: Sam Neill, Laura Dern, Jeff Goldblum</p>
+            </div>
+            <br>
+            <br>
+            <section id="details" class="details">
+                <h2>Detalhes do Filme:</h2>
+                <div class="details-content">
+                    <div class="detail">
+                        <h3>Tempo</h3>
+                        <p>2 horas e 7 minutos</p>
+                    </div>
+                    <div class="detail">
+                        <h3>Tema</h3>
+                        <p>Aventura, Ficção Científica</p>
+                    </div>
+                    <div class="detail">
+                        <h3>Classificação Indicativa</h3>
+                        <p>PG-13 (Não recomendado para menores de 13 anos)</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="characters" class="characters">
+            <div class="characters-content">
+                <h2>Personagens:</h2>
+                <div class="character">
+                    <img src="./Alan grant.jpg" alt="Dr. Alan Grant">
+                    <h3>Dr. Alan Grant</h3>
+                    <p>Um paleontólogo renomado que é chamado para visitar o Jurassic Park.</p>
+                </div>
+                <div class="character">
+                    <img src="./dr-ellie-sattler.jpg" alt="Dr. Ellie Sattler">
+                    <h3>Dr. Ellie Sattler</h3>
+                    <p>Uma paleobotânica que se junta à expedição ao Jurassic Park.</p>
+                </div>
+                <div class="character">
+                    <img src="./iancrop_400x400.png" alt="Dr. Ian Malcolm">
+                    <h3>Dr. Ian Malcolm</h3>
+                    <p>Um matemático e teórico do caos que também visita o Jurassic Park.</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Galeria de Imagens</h2>
+            <div class="image-gallery">
+                <img src="./download.jpg" alt="Jurassic Park Image 1">
+                <img src="./images.jpg" alt="Jurassic Park Image 2">
+                <img src="./Jurassic_Park_poster.jpg" alt="Jurassic Park Image 3">
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Entre em Contato para comprar esse filme:</h2>
+            <form action="#" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jurassic Park. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
